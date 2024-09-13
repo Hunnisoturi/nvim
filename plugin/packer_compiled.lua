@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1703358377/share/lua/5.1/?/init.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1703358377/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1703358377/lib/lua/5.1/?.so"
+local package_path_str = "/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1710088188/share/lua/5.1/?.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1710088188/share/lua/5.1/?/init.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1710088188/lib/luarocks/rocks-5.1/?.lua;/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1710088188/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/Users/aapoattila/.cache/nvim/packer_hererocks/2.1.1710088188/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -85,7 +85,7 @@ _G.packer_plugins = {
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
   ["conform.nvim"] = {
-    config = { "\27LJ\2\nå\4\0\0\5\0\"\0%6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\30\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\0035\4\18\0=\4\19\0035\4\20\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\3=\3\31\0025\3 \0=\3!\2B\0\2\1K\0\1\0\19format_on_save\1\0\3\nasync\1\17lsp_fallback\2\15timeout_ms\3Ù\3\21formatters_by_ft\1\0\0\acs\1\2\0\0\14csharpier\vpython\1\3\0\0\nisort\nblack\blua\1\2\0\0\vstylua\bvue\1\2\0\0\rprettier\rmarkdown\1\2\0\0\rprettier\tyaml\1\2\0\0\rprettier\tjson\1\2\0\0\rprettier\thtml\1\2\0\0\rprettier\bcss\1\2\0\0\rprettier\20typescriptreact\1\2\0\0\rprettier\20javascriptreact\1\2\0\0\rprettier\15typescript\1\2\0\0\rprettier\15javascript\1\0\0\1\2\0\0\rprettier\nsetup\fconform\frequire\0" },
+    config = { "\27LJ\2\n‘\5\0\0\5\0$\0'6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2 \0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\0035\4\18\0=\4\19\0035\4\20\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\0035\4\30\0=\4\31\3=\3!\0025\3\"\0=\3#\2B\0\2\1K\0\1\0\19format_on_save\1\0\3\15timeout_ms\3Ù\3\nasync\1\17lsp_fallback\2\21formatters_by_ft\1\0\2\21formatters_by_ft\0\19format_on_save\0\ago\1\4\0\0\fgolines\22goimports-revised\fgofumpt\acs\1\2\0\0\14csharpier\vpython\1\3\0\0\nisort\nblack\blua\1\2\0\0\vstylua\bvue\1\2\0\0\rprettier\rmarkdown\1\2\0\0\rprettier\tyaml\1\2\0\0\rprettier\tjson\1\2\0\0\rprettier\thtml\1\2\0\0\rprettier\bcss\1\2\0\0\rprettier\20typescriptreact\1\2\0\0\rprettier\20javascriptreact\1\2\0\0\rprettier\15typescript\1\2\0\0\rprettier\15javascript\1\0\14\bcss\0\thtml\0\tyaml\0\rmarkdown\0\blua\0\bvue\0\tjson\0\ago\0\vpython\0\acs\0\15javascript\0\15typescript\0\20javascriptreact\0\20typescriptreact\0\1\2\0\0\rprettier\nsetup\fconform\frequire\0" },
     loaded = true,
     path = "/Users/aapoattila/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
@@ -167,7 +167,7 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   tokyonight = {
-    config = { "\27LJ\2\nú\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\0\rkeywords\1\0\0\1\0\1\vitalic\1\nsetup\15tokyonight\frequire\0" },
+    config = { "\27LJ\2\nÆ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\1\vstyles\0\rkeywords\1\0\1\rkeywords\0\1\0\1\vitalic\1\nsetup\15tokyonight\frequire\0" },
     loaded = true,
     path = "/Users/aapoattila/.local/share/nvim/site/pack/packer/start/tokyonight",
     url = "https://github.com/folke/tokyonight.nvim"
@@ -185,18 +185,18 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: conform.nvim
-time([[Config for conform.nvim]], true)
-try_loadstring("\27LJ\2\nå\4\0\0\5\0\"\0%6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\30\0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\0035\4\18\0=\4\19\0035\4\20\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\3=\3\31\0025\3 \0=\3!\2B\0\2\1K\0\1\0\19format_on_save\1\0\3\nasync\1\17lsp_fallback\2\15timeout_ms\3Ù\3\21formatters_by_ft\1\0\0\acs\1\2\0\0\14csharpier\vpython\1\3\0\0\nisort\nblack\blua\1\2\0\0\vstylua\bvue\1\2\0\0\rprettier\rmarkdown\1\2\0\0\rprettier\tyaml\1\2\0\0\rprettier\tjson\1\2\0\0\rprettier\thtml\1\2\0\0\rprettier\bcss\1\2\0\0\rprettier\20typescriptreact\1\2\0\0\rprettier\20javascriptreact\1\2\0\0\rprettier\15typescript\1\2\0\0\rprettier\15javascript\1\0\0\1\2\0\0\rprettier\nsetup\fconform\frequire\0", "config", "conform.nvim")
-time([[Config for conform.nvim]], false)
--- Config for: tokyonight
-time([[Config for tokyonight]], true)
-try_loadstring("\27LJ\2\nú\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\0\rkeywords\1\0\0\1\0\1\vitalic\1\nsetup\15tokyonight\frequire\0", "config", "tokyonight")
-time([[Config for tokyonight]], false)
 -- Config for: startup.nvim
 time([[Config for startup.nvim]], true)
 try_loadstring("\27LJ\2\n5\0\0\3\0\3\0\0066\0\0\0'\2\1\0B\0\2\0029\0\2\0B\0\1\1K\0\1\0\nsetup\fstartup\frequire\0", "config", "startup.nvim")
 time([[Config for startup.nvim]], false)
+-- Config for: tokyonight
+time([[Config for tokyonight]], true)
+try_loadstring("\27LJ\2\nÆ\1\0\0\5\0\v\0\0156\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\6\0005\3\4\0005\4\3\0=\4\5\3=\3\a\2B\0\2\0016\0\b\0009\0\t\0'\2\n\0B\0\2\1K\0\1\0\27colorscheme tokyonight\bcmd\bvim\vstyles\1\0\1\vstyles\0\rkeywords\1\0\1\rkeywords\0\1\0\1\vitalic\1\nsetup\15tokyonight\frequire\0", "config", "tokyonight")
+time([[Config for tokyonight]], false)
+-- Config for: conform.nvim
+time([[Config for conform.nvim]], true)
+try_loadstring("\27LJ\2\n‘\5\0\0\5\0$\0'6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2 \0005\3\4\0005\4\3\0=\4\5\0035\4\6\0=\4\a\0035\4\b\0=\4\t\0035\4\n\0=\4\v\0035\4\f\0=\4\r\0035\4\14\0=\4\15\0035\4\16\0=\4\17\0035\4\18\0=\4\19\0035\4\20\0=\4\21\0035\4\22\0=\4\23\0035\4\24\0=\4\25\0035\4\26\0=\4\27\0035\4\28\0=\4\29\0035\4\30\0=\4\31\3=\3!\0025\3\"\0=\3#\2B\0\2\1K\0\1\0\19format_on_save\1\0\3\15timeout_ms\3Ù\3\nasync\1\17lsp_fallback\2\21formatters_by_ft\1\0\2\21formatters_by_ft\0\19format_on_save\0\ago\1\4\0\0\fgolines\22goimports-revised\fgofumpt\acs\1\2\0\0\14csharpier\vpython\1\3\0\0\nisort\nblack\blua\1\2\0\0\vstylua\bvue\1\2\0\0\rprettier\rmarkdown\1\2\0\0\rprettier\tyaml\1\2\0\0\rprettier\tjson\1\2\0\0\rprettier\thtml\1\2\0\0\rprettier\bcss\1\2\0\0\rprettier\20typescriptreact\1\2\0\0\rprettier\20javascriptreact\1\2\0\0\rprettier\15typescript\1\2\0\0\rprettier\15javascript\1\0\14\bcss\0\thtml\0\tyaml\0\rmarkdown\0\blua\0\bvue\0\tjson\0\ago\0\vpython\0\acs\0\15javascript\0\15typescript\0\20javascriptreact\0\20typescriptreact\0\1\2\0\0\rprettier\nsetup\fconform\frequire\0", "config", "conform.nvim")
+time([[Config for conform.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

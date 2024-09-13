@@ -62,6 +62,7 @@ return require("packer").startup(function(use)
 					lua = { "stylua" },
 					python = { "isort", "black" },
 					cs = { "csharpier" },
+					go = { "golines", "goimports-revised", "gofumpt" },
 				},
 				format_on_save = {
 					lsp_fallback = true,

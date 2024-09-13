@@ -5,7 +5,7 @@ lsp.on_attach(function(client, brfnr)
 	lsp.default_keymaps({ buffer = bufnr })
 end)
 
-require("lspconfig").tsserver.setup({
+require("lspconfig").ts_ls.setup({
 	init_options = {
 		plugins = {
 			{
